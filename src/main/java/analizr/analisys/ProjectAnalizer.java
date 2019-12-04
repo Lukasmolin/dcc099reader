@@ -53,7 +53,7 @@ public class ProjectAnalizer implements Analizer {
 
         
         File[] projects = folder.toFile().listFiles();
-        /*
+        
         for(File project : projects){
             if(project.isDirectory()){
                 var analizer = new RepoAnalizer(project.toPath().toString());
@@ -63,7 +63,7 @@ public class ProjectAnalizer implements Analizer {
                     exceptions.add(ex);
                 }         
             }   
-        }*/
+        }
 
 
         for (var project : projects) {
